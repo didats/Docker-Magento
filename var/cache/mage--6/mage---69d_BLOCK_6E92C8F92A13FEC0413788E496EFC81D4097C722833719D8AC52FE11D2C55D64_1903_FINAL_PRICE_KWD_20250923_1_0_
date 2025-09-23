@@ -1,0 +1,18 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1758598225;s:6:"expire";i:1758684625;s:4:"tags";s:48:"69d_BLOCK_HTML,69d_CAT_P_1903,69d_CAT_P,69d_MAGE";}
+<div class="price-box price-final_price" data-role="priceBox" data-product-id="1903" data-price-box="product-id-1903">    <span class="normal-price">
+
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+         itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+            <span class="price-label">As low as</span>
+        <span  id="product-price-1903"                data-price-amount="49"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">KWD 49.00</span></span>
+                <meta itemprop="price" content="49" />
+        <meta itemprop="priceCurrency" content="KWD" />
+    </span>
+</span>
+
+
+</div>

@@ -1,0 +1,57 @@
+services:
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root1!password
+      MYSQL_DATABASE: magento
+      MYSQL_USER: magento
+      MYSQL_PASSWORD: magento1!password
+    ports:
+      - "3307:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+
+  opensearch:
+    image: opensearchproject/opensearch:2.13.0
+    environment:
+      - discovery.type=single-node
+      - OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m
+      - plugins.security.disabled=true
+      - OPENSEARCH_INITIAL_ADMIN_PASSWORD=Open@search12!3
+    ports:
+      - "9201:9200"
+      - "9601:9600"
+    volumes:
+      - opensearch_data:/usr/share/opensearch/data
+
+  php:
+    build: .
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - mysql
+      - opensearch
+    command: sh ./install.sh
+    environment:
+      - COMPOSER_USER=f5b75676ef89ce20351c84fb4e4f56fb
+      - COMPOSER_PASSWORD=b2af391ca0c97ae23c2cea6e7c9ef7af
+      - DB_HOST=mysql
+      - DB_NAME=magento
+      - DB_PASSWORD=root1!password
+      - OPENSEARCH_HOST=opensearch
+      - MAGENTO_BASE_URL=http://62.171.191.230:8071/
+      - MAGENTO_ADMIN_USER=admin
+      - MAGENTO_ADMIN_PASSWORD=admin123
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8071:80"
+    volumes:
+      - ./:/var/www/html
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - php
+
+volumes:
+  db_data:
+  opensearch_data:

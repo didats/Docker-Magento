@@ -1,0 +1,1 @@
+_session_validator_data|a:4:{s:11:"remote_addr";s:8:"10.0.2.1";s:8:"http_via";s:0:"";s:20:"http_x_forwarded_for";s:15:"147.182.199.196";s:15:"http_user_agent";s:22:"python-requests/2.27.1";}_session_hosts|a:1:{s:14:"62.171.191.230";b:1;}default|a:0:{}customer_base|a:0:{}checkout|a:0:{}catalog|a:0:{}

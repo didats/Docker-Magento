@@ -1,0 +1,32 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1758596910;s:6:"expire";i:1758600510;s:4:"tags";s:47:"69d_BLOCK_HTML,69d_CAT_P_898,69d_CAT_P,69d_MAGE";}
+                <div class="swatch-opt-898"
+         data-role="swatch-option-898"></div>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=swatch-option-898]": {
+                "Magento_Swatches/js/swatch-renderer": {
+                    "selectorProduct": ".product-item-details",
+                    "onlySwatches": true,
+                    "enableControlLabel": false,
+                    "numberToShow": 16,
+                    "jsonConfig": {"attributes":{"144":{"id":"144","code":"size","label":"Size","options":[{"id":"175","label":"32","products":["894"]},{"id":"176","label":"33","products":["895"]},{"id":"177","label":"34","products":["896"]},{"id":"178","label":"36","products":["897"]}],"position":"0"},"93":{"id":"93","code":"color","label":"Color","options":[{"id":"49","label":"Black","products":["894","895","896","897"]}],"position":"1"}},"template":"KWD\u00a0<%- data.price %>","currencyFormat":"KWD\u00a0%s","optionPrices":{"894":{"baseOldPrice":{"amount":32.5},"oldPrice":{"amount":32.5},"basePrice":{"amount":32.5},"finalPrice":{"amount":32.5},"tierPrices":[],"msrpPrice":{"amount":0}},"895":{"baseOldPrice":{"amount":32.5},"oldPrice":{"amount":32.5},"basePrice":{"amount":32.5},"finalPrice":{"amount":32.5},"tierPrices":[],"msrpPrice":{"amount":0}},"896":{"baseOldPrice":{"amount":32.5},"oldPrice":{"amount":32.5},"basePrice":{"amount":32.5},"finalPrice":{"amount":32.5},"tierPrices":[],"msrpPrice":{"amount":0}},"897":{"baseOldPrice":{"amount":32.5},"oldPrice":{"amount":32.5},"basePrice":{"amount":32.5},"finalPrice":{"amount":32.5},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"KWD\u00a0%s","precision":3,"requiredPrecision":3,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":32.5},"oldPrice":{"amount":32.5},"basePrice":{"amount":32.5},"finalPrice":{"amount":32.5}},"productId":"898","chooseText":"Choose an Option...","images":[],"index":{"894":{"144":"175","93":"49"},"895":{"144":"176","93":"49"},"896":{"144":"177","93":"49"},"897":{"144":"178","93":"49"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"preSelectedGallery":{"large":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/eaf67ce9099bb97a52402fa165be981d\/m\/s\/msh02-black_main_1.jpg","medium":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/79baff4bf46bcf5c7829c2046abe0952\/m\/s\/msh02-black_main_1.jpg","small":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/b2431d94090e514b3c68bbb53b612e4f\/m\/s\/msh02-black_main_1.jpg","position":"1","isMain":true,"gallery":{"1519":{"large":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/eaf67ce9099bb97a52402fa165be981d\/m\/s\/msh02-black_main_1.jpg","medium":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/79baff4bf46bcf5c7829c2046abe0952\/m\/s\/msh02-black_main_1.jpg","small":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/b2431d94090e514b3c68bbb53b612e4f\/m\/s\/msh02-black_main_1.jpg","position":"1","isMain":true},"1520":{"large":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/eaf67ce9099bb97a52402fa165be981d\/m\/s\/msh02-black_alt1_1.jpg","medium":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/79baff4bf46bcf5c7829c2046abe0952\/m\/s\/msh02-black_alt1_1.jpg","small":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/b2431d94090e514b3c68bbb53b612e4f\/m\/s\/msh02-black_alt1_1.jpg","position":"2","isMain":false},"1521":{"large":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/eaf67ce9099bb97a52402fa165be981d\/m\/s\/msh02-black_back_1.jpg","medium":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/79baff4bf46bcf5c7829c2046abe0952\/m\/s\/msh02-black_back_1.jpg","small":"http:\/\/62.171.191.230:8071\/media\/catalog\/product\/cache\/b2431d94090e514b3c68bbb53b612e4f\/m\/s\/msh02-black_back_1.jpg","position":"3","isMain":false}}},"channel":"website","salesChannelCode":"base","sku":{"894":"MSH02-32-Black","895":"MSH02-33-Black","896":"MSH02-34-Black","897":"MSH02-36-Black"}},
+                    "jsonSwatchConfig": {"144":{"175":{"type":"0","value":"32","label":"32"},"176":{"type":"0","value":"33","label":"33"},"177":{"type":"0","value":"34","label":"34"},"178":{"type":"0","value":"36","label":"36"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":1,\"use_product_image_for_swatch\":0}"},"93":{"49":{"type":"1","value":"#000000","label":"Black"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":1,\"use_product_image_for_swatch\":0}"}},
+                    "mediaCallback": "https\u003A\u002F\u002Fbedemagento.pixilapps.com\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    "jsonSwatchImageSizeConfig": {"swatchImage":{"width":30,"height":20},"swatchThumb":{"height":90,"width":110}},
+                    "showTooltip": 1                }
+            }
+        }
+    </script>
+
+    <script type="text/x-magento-init">
+        {
+            "[data-role=priceBox][data-price-box=product-id-898]": {
+                "priceBox": {
+                    "priceConfig": {
+                        "priceFormat": {"pattern":"KWD\u00a0%s","precision":3,"requiredPrecision":3,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},
+                        "prices": {"baseOldPrice":{"amount":32.5},"oldPrice":{"amount":32.5},"basePrice":{"amount":32.5},"finalPrice":{"amount":32.5}}                    }
+                }
+            }
+        }
+    </script>
