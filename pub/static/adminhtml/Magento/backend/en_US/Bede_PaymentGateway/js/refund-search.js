@@ -64,7 +64,7 @@ define([
                     var actions = '';
                     
                     if (payment.can_refund) {
-                        actions += '<button type="button" class="action-default primary refund-btn" data-payment-id="' + 
+                        actions += '<button type="button" class="primary refund-btn" data-payment-id="' + 
                             payment.id + '" data-amount="' + payment.amount + '" style="margin-right: 5px;">' + 
                             $t('Refund') + '</button>';
                     }
@@ -72,17 +72,17 @@ define([
                     if (payment.order_id) { // sales/order/view/order_id/39/
                         var baseUrl = window.location.origin + window.location.pathname;
                         baseUrl = baseUrl.replace("/bedepg/refund/index", "/sales/order/view/order_id/" + payment.order_id);
-                        actions += '<a href="' + baseUrl + '" target="_blank" class="action-default">' + $t('View Order') + '</a>';
+                        actions += '<a href="' + baseUrl + '" target="_blank" class="">' + $t('View Order') + '</a>';
 
                         if(!payment.refund_request) {
 				if(payment.payment_status == 'success') {
                             actions += "&nbsp;|&nbsp;";
-                            actions += '<a href="#" class="action-default request-refund-btn" ' +
+                            actions += '<a href="#" class="request-refund-btn" ' +
                                 'data-payment-id="' + payment.id + '" ' +
                                 'data-bookeey-track-id="' + (payment.bookeey_track_id || '') + '" ' +
                                 'data-merchant-track-id="' + payment.merchant_track_id + '" ' +
                                 'data-amount="' + payment.amount + '" ' +
-                                'style="background: #B22222; color: #FFF; margin-left: 5px;">' + 
+                                'style="color: #B22222;">' + 
                                 $t('Request Refund') + '</a>';
 				}
                         }
